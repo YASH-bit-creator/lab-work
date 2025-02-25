@@ -1,2 +1,2 @@
-rs = int(input("Enter rupees : "))
-print("Dollars = ",rs/48)
+num = int(input("Enter number : "))
+print("Absolute number of a entered number is :",abs(num))

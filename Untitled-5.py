@@ -1,6 +1,3 @@
-a = int(input("Enter value of a : "))
-b = int(input("ENter value of b : "))
-print("a + b =",a+b)
-print("a - b =",a-b)
-print("a * b =",a*b)
-print("a / b =",a/b)
+age = int(input("Enter your age : "))
+
+print("Your are minor.") if age < 18 else print("Your are major.")
